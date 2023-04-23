@@ -3,8 +3,6 @@ import { RouterView } from 'vue-router';
 import { RouterLink } from 'vue-router';
 </script>
 
-
-
 <template>
   <!--Header of the section-->
    <header>
