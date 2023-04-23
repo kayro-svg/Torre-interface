@@ -10,21 +10,29 @@ const router = createRouter({
       component: TorreView
     },
     {
-      path: '/signin',
-      name: 'SIGN IN',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      path: '/resourcefulness',
+      name : 'skill-button',
+      component: () => import('../views/Resourcefulness.vue')
     },
     {
-      path: '/jobsrelated',
-      name : 'skill-button',
-      component: () => import('../views/JobsRelated.vue')
-    }
-
-  ]
+      path: '/attentiontodetail',
+      name : 'skill-button1',
+      component: () => import('../views/AttentiontoDetail.vue')
+    },
+    {
+      path: '/commitment',
+      name : 'skill-button2',
+      component: () => import('../views/Commitment.vue')
+    },
+    {
+      path: '/consistency',
+      name : 'skill-button3',
+      component: () => import('../views/Consistency.vue')
+    },
+  ],
 })
+
+
 
 
 export default router

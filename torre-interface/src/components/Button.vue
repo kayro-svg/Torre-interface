@@ -1,9 +1,19 @@
 <template>
-    <button :to="route" class="button">{{ label }}</button>
+    <button :to="route" @click="scrollToTop" class="button" >{{ label }}</button>
   </template>
   
   <script>
+
   export default {
+    methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
+  },
     name: "Button",
     props: {
     label: {
@@ -14,6 +24,7 @@
         type: String,
         required: true,
     },
+
     },
   };
   </script>

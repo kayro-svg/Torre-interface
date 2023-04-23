@@ -23,8 +23,8 @@
   background-color: #5e626b;
   border-radius: 20px solid #fff; /* Establece el borde del hexágono */
   position: relative;
-  width: 180px;
-  height: 199px;
+  width: 167px;
+  height: 189px;
   margin: 20px auto;
   clip-path: polygon(50% 2%, 99% 25%, 99% 73%, 50% 95%, 2% 74%, 2% 25% );
 }
@@ -32,8 +32,8 @@
   margin-top: 20px;
   border-radius: 20px solid #fff; /* Establece el borde del hexágono */
   position: relative;
-  width: 160px;
-  height: 180px;
+  width: 148px;
+  height: 170px;
   margin: 20px auto;
   clip-path: polygon(50% 7%, 99% 29.5%, 99% 78%, 50% 100%, 2% 79%, 2% 29.5%);
 }
