@@ -61,9 +61,6 @@ import { RouterLink } from 'vue-router';
   </div>
 </div>
 </template>
-
-
-
 <style lang="scss">
 *{
   background-color: #27292d;
