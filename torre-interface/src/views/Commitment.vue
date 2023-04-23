@@ -3,8 +3,9 @@ import { RouterView } from 'vue-router';
 import { RouterLink } from 'vue-router';
 </script>
 
-<template>
 
+
+<template>
   <!--Header of the section-->
    <header>
     <nav class="container">
@@ -106,20 +107,13 @@ import { RouterLink } from 'vue-router';
   </div>
 
 </div>
-
-
     </div>
-
-    
   </div>
-
-
 </template>
 
 
+
 <style lang="scss" scoped>
-
-
 @import url("https://use.typekit.net/jmq5unc.css");
 
 //Header styles section
@@ -174,7 +168,6 @@ header {
 
 
 //Body
-
 *{
   background-color: #27292d;
 }
