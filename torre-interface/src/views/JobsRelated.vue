@@ -1,11 +1,9 @@
-
-<script setup> 
+<script>
 import { RouterLink } from 'vue-router';
-
 </script>
 
 <template>
-  <header>
+   <header>
     <nav class="container">
 
       <div class="burguer">
